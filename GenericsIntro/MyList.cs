@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace GenericsIntro
 {
-    internal class MyList<T>
+    class MyList<T>
     {
-        private T[] items;
-        
+        T[] items;
+
         public MyList()//contructor
         {
             items = new T[0];
@@ -24,6 +24,20 @@ namespace GenericsIntro
             }
 
             items[items.Length - 1] = item; //eklemek istediğin item burada eklenmiş oluyor
+        }
+        public int Lenght
+        {
+            get
+            {
+                return items.Length;
+            }
+        }
+        public T[] Items
+        {
+            get
+            {
+                return items;
+            }
         }
     }
 }
