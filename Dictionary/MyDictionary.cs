@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Dictionary
 {
-    internal class MyDictionary<K,V>
-    { 
-        KeyValuePair<K,V>[] items;
+    internal class MyDictionary<K, V>
+    {
+        KeyValuePair<K, V>[] items;
 
-        public MyDictionary() 
+        public MyDictionary()
         {
             items = new KeyValuePair<K, V>[0];
         }
@@ -20,15 +20,14 @@ namespace Dictionary
         public void Add(K _key, V _value)
         {
             KeyValuePair<K, V>[] tempArray = items;
-            items = new KeyValuePair<K,V>[items.Length + 1];
+            items = new KeyValuePair<K, V>[items.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];
             }
 
-            items[items.Length - 1] = new KeyValuePair<K, V>();
-
-            Console.WriteLine(items[items.Length-1]);
+            items[^1] = new KeyValuePair<K, V>(_key, _value);
+            Console.WriteLine(items[items.Length - 1]);
         }
 
         public void ListItems()
@@ -43,6 +42,6 @@ namespace Dictionary
         {
             get { return items.Length; }
         }
-      
+
     }
 }
