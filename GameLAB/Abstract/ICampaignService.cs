@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using GameLAB.Entities;
+
+namespace GameLAB.Abstract
+{
+    public interface ICampaignService
+    {
+        void AddCampaign(Campaign campaign);
+        void RemoveCampaign(Campaign campaign);
+        void UpdateCampaign(Campaign campaign);
+    }
+}
