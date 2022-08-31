@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GamePROJECT.Entities;
 
-namespace CoffeeShopREG.Concrete
+namespace GamePROJECT.Abstract
 {
-    public class NeroCustomerManager:BaseCustomerManager
+    public interface IValidateService
     {
+        bool Validate(Gamer gamer);
     }
 }
