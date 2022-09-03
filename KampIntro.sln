@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLAB", "GameLAB\GameLAB.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeShopREG", "CoffeeShopREG\CoffeeShopREG.csproj", "{42DDC811-B191-4F1C-9E09-B4EF53DB74E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePROJECT", "GamePROJECT\GamePROJECT.csproj", "{3C5AB839-29B8-48B3-94CB-DF8528E978EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamePROJECT", "GamePROJECT\GamePROJECT.csproj", "{3C5AB839-29B8-48B3-94CB-DF8528E978EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{0E3350A9-2929-4611-9348-BD9A46817763}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{3C5AB839-29B8-48B3-94CB-DF8528E978EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5AB839-29B8-48B3-94CB-DF8528E978EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5AB839-29B8-48B3-94CB-DF8528E978EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3350A9-2929-4611-9348-BD9A46817763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3350A9-2929-4611-9348-BD9A46817763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3350A9-2929-4611-9348-BD9A46817763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3350A9-2929-4611-9348-BD9A46817763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
